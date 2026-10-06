@@ -1,0 +1,11 @@
+configuration:
+  recordings_path:
+    name: "Folder Rekaman"
+    description: "Di mana rekaman disimpan. Harus berada di bawah /media (terlihat di browser Media) atau /share."
+  name:
+    name: "Nama server"
+    description: "Nama yang ditampilkan dalam OneTV Connect. Empty = \"Home Assistant\"."
+network:
+  47820/tcp: "OneTV Connect API (HTTPS). Port diperbaiki, didengarkan di jaringan host."
+  47823/udp: "Penemuan otomatis oleh OneTV Connect."
+  47824/udp: "Koneksi terenkripsi langsung yang digunakan oleh aplikasi jauh dari rumah. Tidak ada yang bisa dibuka di router Anda."

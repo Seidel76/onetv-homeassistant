@@ -1,0 +1,11 @@
+configuration:
+  recordings_path:
+    name: "Kayıtlar klasörü"
+    description: "Kayıtların saklandığı yer. Medya tarayıcısında /media veya /sharealtında olmalıdır."
+  name:
+    name: "Sunucu adı"
+    description: "İsim OneTV Connect içinde gösterilmiştir. Boş = \"Home Assistant\"."
+network:
+  47820/tcp: "OneTV Connect API (HTTPS). Sabit port, ana ağda dinleniyordu."
+  47823/udp: "Otomatik keşif OneTV Connect tarafından yapıldı."
+  47824/udp: "Evden uzaktaki uygulamalar tarafından kullanılan doğrudan şifreli bağlantı. Yönlendiricinizde açılacak bir şey yok."

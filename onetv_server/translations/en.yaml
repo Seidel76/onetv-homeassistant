@@ -1,0 +1,11 @@
+configuration:
+  recordings_path:
+    name: "Recordings folder"
+    description: "Where recordings are stored. Must be under /media (visible in the Media browser) or /share."
+  name:
+    name: "Server name"
+    description: "Name shown in OneTV Connect. Empty = “Home Assistant”."
+network:
+  47820/tcp: "OneTV Connect API (HTTPS). Fixed port, listened on the host network."
+  47823/udp: "Automatic discovery by OneTV Connect."
+  47824/udp: "Direct encrypted connection used by the apps away from home. Nothing to open on your router."

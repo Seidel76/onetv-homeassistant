@@ -1,0 +1,11 @@
+configuration:
+  recordings_path:
+    name: "Felvételek mappa"
+    description: "Ahol a felvételeket tárolják. A /media alatt kell lennie (a médiaböngészőben látható) vagy /share."
+  name:
+    name: "Szerver név"
+    description: "A név OneTV Connect. Empty = \"Home Assistant\"."
+network:
+  47820/tcp: "OneTV Connect API (HTTPS). Fix port, a host hálózaton hallgattam."
+  47823/udp: "Automatikus felfedezés OneTV Connect."
+  47824/udp: "Közvetlen titkosított kapcsolatot használnak az alkalmazások otthonról. Nincs semmi, amit a routeredben nyithatnék."

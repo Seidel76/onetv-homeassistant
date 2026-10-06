@@ -1,0 +1,11 @@
+configuration:
+  recordings_path:
+    name: "Opnamemap"
+    description: "Waar opnames worden opgeslagen. Moet onder /media staan (zichtbaar in de Mediabrowser) of /share."
+  name:
+    name: "Servernaam"
+    description: "Naam weergegeven in OneTV Connect. Leeg = \"Home Assistant\"."
+network:
+  47820/tcp: "OneTV Connect API (HTTPS). Vaste poort, geluisterd op het hostnetwerk."
+  47823/udp: "Automatische ontdekking door OneTV Connect."
+  47824/udp: "Directe versleutelde verbinding die door apps buiten huis wordt gebruikt. Niets om op je router te openen."

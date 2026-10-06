@@ -1,0 +1,11 @@
+configuration:
+  recordings_path:
+    name: "مجلد التسجيلات"
+    description: "حيث يتم تخزين التسجيلات. يجب أن تكون تحت /media (مرئية في متصفح الوسائط) أو /share."
+  name:
+    name: "اسم الخادم"
+    description: "الاسم موضح في OneTV Connect. فارغ = \"Home Assistant\"."
+network:
+  47820/tcp: "واجهة برمجة التطبيقات OneTV Connect (HTTPS). منفذ ثابت، استمعت على شبكة المضيف."
+  47823/udp: "الاكتشاف التلقائي من قبل OneTV Connect."
+  47824/udp: "اتصال مشفر مباشر تستخدمه التطبيقات بعيدا عن المنزل. لا يوجد شيء لفتحه على جهاز التوجيه."

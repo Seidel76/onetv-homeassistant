@@ -1,0 +1,11 @@
+configuration:
+  recordings_path:
+    name: "Папка с записями"
+    description: "Где хранятся записи. Должно быть под /media (видно в браузере Медиа) или /share."
+  name:
+    name: "Имя сервера"
+    description: "Имя указано в OneTV Connect. Пустое = \"Home Assistant\"."
+network:
+  47820/tcp: "OneTV Connect API (HTTPS). Фиксированный порт, прослушивается в хост-сети."
+  47823/udp: "Автоматическое обнаружение OneTV Connect."
+  47824/udp: "Прямое зашифрованное соединение, используемое приложениями вне дома. На роутере нечего открывать."

@@ -1,0 +1,11 @@
+configuration:
+  recordings_path:
+    name: "Dossier des enregistrements"
+    description: "Emplacement des enregistrements. Doit être sous /media (visible dans le navigateur multimédia) ou /share."
+  name:
+    name: "Nom du serveur"
+    description: "Nom affiché dans OneTV Connect. Vide = « Home Assistant »."
+network:
+  47820/tcp: "API OneTV Connect (HTTPS). Port fixe, écouté sur le réseau de l’hôte."
+  47823/udp: "Découverte automatique par OneTV Connect."
+  47824/udp: "Connexion directe chiffrée utilisée par les apps hors de la maison. Rien à ouvrir sur votre box."

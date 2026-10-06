@@ -1,0 +1,11 @@
+configuration:
+  recordings_path:
+    name: "תיקיית הקלטות"
+    description: "איפה נשמרות ההקלטות. חייבות להיות תחת /media (גלוי בדפדפן המדיה) או /share."
+  name:
+    name: "שם השרת"
+    description: "השם מוצג ב- OneTV Connect. ריק = \"Home Assistant\"."
+network:
+  47820/tcp: "OneTV Connect API (HTTPS). פורט קבוע, האזנה ברשת המארחת."
+  47823/udp: "גילוי אוטומטי על ידי OneTV Connect."
+  47824/udp: "חיבור מוצפן ישיר שמשתמשים בו האפליקציות מחוץ לבית. אין שום דבר לפתוח בנתב שלך."

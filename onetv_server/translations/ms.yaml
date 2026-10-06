@@ -1,0 +1,11 @@
+configuration:
+  recordings_path:
+    name: "Folder Rakaman"
+    description: "Di mana rakaman disimpan. Mesti di bawah /media (kelihatan dalam pelayar Media) atau /share."
+  name:
+    name: "Nama pelayan"
+    description: "Nama ditunjukkan dalam OneTV Connect. Kosong = \"Home Assistant\"."
+network:
+  47820/tcp: "OneTV Connect API (HTTPS). Port diperbaiki, didengar di rangkaian hos."
+  47823/udp: "Penemuan automatik oleh OneTV Connect."
+  47824/udp: "Sambungan terus yang disulitkan digunakan oleh aplikasi di luar rumah. Tiada apa yang boleh dibuka pada router anda."

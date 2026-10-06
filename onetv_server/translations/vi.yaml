@@ -1,0 +1,11 @@
+configuration:
+  recordings_path:
+    name: "Thư mục ghi âm"
+    description: "Nơi lưu trữ các bản ghi. Phải nằm trong mục /media (hiển thị trong trình duyệt phương tiện) hoặc /share."
+  name:
+    name: "Tên máy chủ"
+    description: "Tên được hiển thị trong OneTV Connect. Trống = \"Home Assistant\"."
+network:
+  47820/tcp: "API OneTV Connect (HTTPS). Đã sửa cổng, nghe trên mạng chủ."
+  47823/udp: "Phát hiện tự động bởi OneTV Connect."
+  47824/udp: "Kết nối mã hóa trực tiếp được sử dụng bởi các ứng dụng khi ở ngoài nhà. Không có gì để mở trên bộ định tuyến của bạn."

@@ -1,0 +1,11 @@
+configuration:
+  recordings_path:
+    name: "โฟลเดอร์บันทึกเสียง"
+    description: "ที่เก็บบันทึกต้องอยู่ภายใต้ /media (มองเห็นได้ในเบราว์เซอร์สื่อ) หรือ /share"
+  name:
+    name: "ชื่อเซิร์ฟเวอร์"
+    description: "ชื่อที่แสดงใน OneTV Connectว่างเปล่า = \"Home Assistant\"."
+network:
+  47820/tcp: "OneTV Connect API (HTTPS)แก้ไขพอร์ต ฟังบนเครือข่ายโฮสต์"
+  47823/udp: "การค้นพบโดยอัตโนมัติโดย OneTV Connect."
+  47824/udp: "การเชื่อมต่อเข้ารหัสโดยตรงที่ใช้โดยแอปนอกบ้านไม่มีอะไรให้เปิดบนเราเตอร์ของคุณ"

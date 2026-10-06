@@ -1,0 +1,11 @@
+configuration:
+  recordings_path:
+    name: "録音フォルダ"
+    description: "録音が保存されている場所。メディアブラウザで /media または /shareの下にある必要があります。"
+  name:
+    name: "サーバー名"
+    description: "名前は OneTV Connectに示されています。Empty = \"\"\"Home Assistant\"。"
+network:
+  47820/tcp: "OneTV Connect API(HTTPS)。固定ポートで、ホストネットワークで受信。"
+  47823/udp: "OneTV Connectによる自動発見。"
+  47824/udp: "アプリが自宅から離れて直接暗号化接続を使ったこと。ルーターには開くものがありません。"

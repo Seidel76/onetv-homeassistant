@@ -1,0 +1,11 @@
+configuration:
+  recordings_path:
+    name: "Pasta de gravações"
+    description: "Onde as gravações são armazenadas. Deve estar sob /media (visível no navegador de mídia) ou /share."
+  name:
+    name: "Nome do servidor"
+    description: "Nome mostrado em OneTV Connect. Vazio = \"Home Assistant\"."
+network:
+  47820/tcp: "OneTV Connect API (HTTPS). Porta fixa, ouvida na rede host."
+  47823/udp: "Descoberta automática por OneTV Connect."
+  47824/udp: "Conexão criptografada direta usada pelos aplicativos fora de casa. Nada para abrir no seu roteador."

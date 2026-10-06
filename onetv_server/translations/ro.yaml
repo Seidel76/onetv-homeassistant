@@ -1,0 +1,11 @@
+configuration:
+  recordings_path:
+    name: "Folderul Înregistrări"
+    description: "Unde sunt stocate înregistrările. Trebuie să fie sub /media (vizibil în browserul Media) sau /share."
+  name:
+    name: "Numele serverului"
+    description: "Numele este afișat în OneTV Connect. Empty = \"Home Assistant\"."
+network:
+  47820/tcp: "OneTV Connect API (HTTPS). Portul corect, ascultat pe rețeaua gazdă."
+  47823/udp: "Descoperire automată de către OneTV Connect."
+  47824/udp: "Conexiune criptată directă folosită de aplicații departe de casă. Nimic de deschis pe routerul tău."

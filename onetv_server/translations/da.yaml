@@ -1,0 +1,11 @@
+configuration:
+  recordings_path:
+    name: "Optageringsmappe"
+    description: "Hvor optagelser er gemt. Skal være under /media (synligt i mediebrowseren) eller /share."
+  name:
+    name: "Servernavn"
+    description: "Navn vist i OneTV Connect. Tomt = \"Home Assistant\"."
+network:
+  47820/tcp: "OneTV Connect API (HTTPS). Fast port, lyttet på værtsnetværket."
+  47823/udp: "Automatisk opdagelse ved OneTV Connect."
+  47824/udp: "Direkte krypteret forbindelse bruges af apps væk fra hjemmet. Intet at åbne på din router."

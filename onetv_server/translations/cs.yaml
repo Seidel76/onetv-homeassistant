@@ -1,0 +1,11 @@
+configuration:
+  recordings_path:
+    name: "Složka nahrávek"
+    description: "Kde jsou nahrávky uloženy. Musí být pod /media (viditelné v prohlížeči médií) nebo /share."
+  name:
+    name: "Název serveru"
+    description: "Jméno zobrazeno v OneTV Connect. Empty = \"Home Assistant\"."
+network:
+  47820/tcp: "OneTV Connect API (HTTPS). Pevný port, poslouchán na hostitelské síti."
+  47823/udp: "Automatické objevování od OneTV Connect."
+  47824/udp: "Přímé šifrované připojení používané aplikacemi mimo domov. Na routeru není nic, co by se dalo otevírat."

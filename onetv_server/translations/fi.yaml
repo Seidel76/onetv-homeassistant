@@ -1,0 +1,11 @@
+configuration:
+  recordings_path:
+    name: "Äänityskansio"
+    description: "Missä tallenteet säilytetään. On oltava /media (näkyvissä mediaselaimessa) tai /share."
+  name:
+    name: "Palvelimen nimi"
+    description: "Nimi näkyy OneTV Connect. Tyhjä = \"Home Assistant\"."
+network:
+  47820/tcp: "OneTV Connect API (HTTPS). Kiinteä portti, kuunneltu isäntäverkossa."
+  47823/udp: "Automaattinen löytö OneTV Connect."
+  47824/udp: "Suora salattu yhteys, jota sovellukset käyttävät kodin ulkopuolella. Reitittimessäsi ei ole mitään avattavaa."

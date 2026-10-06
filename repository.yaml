@@ -1,0 +1,6 @@
+# Home Assistant add-on repository — OneTV Server.
+# Add in Home Assistant: Settings > Add-ons > Add-on store > ⋮ > Repositories:
+#   https://github.com/Seidel76/onetv-homeassistant
+name: OneTV Connect
+url: https://onetvconnect.com/server/
+maintainer: OneTV Connect <contact@onetvconnect.com>

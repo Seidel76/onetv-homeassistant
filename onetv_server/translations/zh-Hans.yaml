@@ -1,0 +1,11 @@
+configuration:
+  recordings_path:
+    name: "录音文件夹"
+    description: "录音存储处。必须在 /media （媒体浏览器中可见）或 /share。"
+  name:
+    name: "服务器名称"
+    description: "名称显示在 OneTV Connect。空 = “Home Assistant”。"
+network:
+  47820/tcp: "OneTV Connect API（HTTPS）。固定端口，在主机网络监听。"
+  47823/udp: "OneTV Connect自动发现。"
+  47824/udp: "应用在家外使用直接加密连接。路由器上没有任何可打开的功能。"

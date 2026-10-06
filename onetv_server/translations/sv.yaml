@@ -1,0 +1,11 @@
+configuration:
+  recordings_path:
+    name: "Inspelningsmapp"
+    description: "Var inspelningarna lagras. Måste vara under /media (synligt i Media-webbläsaren) eller /share."
+  name:
+    name: "Servernamn"
+    description: "Namn visas i OneTV Connect. Tomt = \"Home Assistant\"."
+network:
+  47820/tcp: "OneTV Connect API (HTTPS). Fixerad port, lyssnad på värdnätverket."
+  47823/udp: "Automatisk upptäckt av OneTV Connect."
+  47824/udp: "Direkt krypterad anslutning som används av apparna utanför hemmet. Inget att öppna på din router."
